@@ -15,9 +15,9 @@ namespace pr5
                 Console.WriteLine($"Введите длину массива: ");
                 int a = int.Parse(Console.ReadLine());
                 int[] mas = new int[a];
-                Console.WriteLine($"Заполните массив целыми числами");
                 for (int i = 0; i < mas.Length; i++)
                 {
+                    Console.WriteLine($"Введите элемент массива [{i}]");
                     int b = int.Parse(Console.ReadLine());
                     mas[i] = b;
                 }

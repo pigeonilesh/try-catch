@@ -26,6 +26,10 @@ namespace pr4
             {
                 Console.WriteLine($"Ошибка: нужно вводить только числа.");
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Неизвестная ошибка: {ex.Message}");
+            }
             Console.WriteLine($"Весь Массив: ");
             for (int i = 0; i < numbers.Length; i++)
             {

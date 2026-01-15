@@ -20,6 +20,10 @@ namespace pr1
             {
                 Console.WriteLine($"Ошибка: возможен ввод только целых чисел.");
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Неизвестная ошибка: {ex.Message}");
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "try-catch", "try-catch\try-catch.csproj", "{5ED774DC-6D0F-400F-A8C4-1D8D47C0E12A}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr5", "pr5\pr5.csproj", "{3B870D22-013D-406E-93D7-48968D9780E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr6", "pr6\pr6.csproj", "{22826202-081D-47B2-8605-6CB373BC3A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr7", "pr7\pr7.csproj", "{8755D40F-62DE-4058-A484-0DCCDE27059F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{22826202-081D-47B2-8605-6CB373BC3A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22826202-081D-47B2-8605-6CB373BC3A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22826202-081D-47B2-8605-6CB373BC3A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8755D40F-62DE-4058-A484-0DCCDE27059F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8755D40F-62DE-4058-A484-0DCCDE27059F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8755D40F-62DE-4058-A484-0DCCDE27059F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8755D40F-62DE-4058-A484-0DCCDE27059F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

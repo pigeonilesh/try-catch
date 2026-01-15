@@ -17,10 +17,11 @@ namespace pr3
                 int[] mas = new int[a];
                 for (int i = 0; i < mas.Length; i++)
                 {
+                    Console.WriteLine($"Введите элемент массива [{i}]");
                     int b = int.Parse(Console.ReadLine());
                     mas[i] = b;
                 }
-                for (int i = 0;i < mas.Length; i++)
+                for (int i = 0; i < mas.Length; i++)
                 {
                     Console.Write(mas[i] + " ");
                 }
