@@ -16,7 +16,7 @@ namespace pr7
                 int a = int.Parse(Console.ReadLine());
                 int[] mas1 = new int[a];
                 int[] mas2 = new int[a];
-                double[] mas3 = new double[a];
+                int[] mas3 = new int[a];
                 for (int i = 0; i < mas1.Length; i++)
                 {
                     Console.WriteLine($"Введите элемент первого массива [{i}]");
@@ -31,8 +31,8 @@ namespace pr7
                 {
                     try
                     {
-                        mas3[i] = Convert.ToDouble(mas1[i] / mas2[i]);
-                        Console.WriteLine($"mas1[{i}] / mas2[{i}] = {mas3[i]:F2}");
+                        mas3[i] = mas1[i] / mas2[i];
+                        Console.WriteLine($"mas1[{i}] / mas2[{i}] = {mas3[i]}");
                     }
                     catch (DivideByZeroException)
                     {
